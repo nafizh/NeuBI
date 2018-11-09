@@ -1,6 +1,6 @@
 # NeuBI
 **Neu**ral **B**acteriocin **I**dentifier (NeuBI) is a recurrent neural network based model to predict bacteriocins from 
-protein sequences. Unlike traditional alignment based approaches such as BLAST or HMMER, this is an alignment free approach towards finding novel bacteriocins. We show that performance of NeuBI is better than the alignment based approaches. You can learn more from our paper:
+protein sequences. Unlike traditional alignment based approaches such as BLAST or HMMER used by BAGEL or BACTIBASE, this is an alignment free approach towards finding novel bacteriocins. We show that performance of NeuBI is better than the alignment based approaches. You can learn more from our paper:
 
 > add citation
 
