@@ -15,7 +15,7 @@ First, download this repository. Then run the following commands
 $ cd NeuBI
 ```
 
-We will use virtualenv to make sure the software is installed in its own sandbox, and the installations of the softwares 
+We will use virtualenv to make sure the software is installed in its own sandbox, and the installation of the softwares 
 needed to run NeuBI do not affect the computer's default computing environment. Run
 
 ```
@@ -47,8 +47,7 @@ $ python neubi.py my_fav_fasta.fa
 ```
 
 The program will output a new file that has the same name + 'results'. This file will contain all the sequences from your
-original fasta file that have lengths of <=302, and will assign a probability that the sequence is a bacteriocin. For example, 
-a result file will have something like this
+original fasta file that have lengths of <=302, and will assign a probability that the sequence is a bacteriocin. For example, a result file will have something like this
 
 ```
 >EFGCFBOH_00014 Accessory gene regulator A|249|0.010913903
@@ -61,11 +60,11 @@ MNNKKTKNNFSTLSESELLKVIGGDIFKLVIDHISMKARKK
 MNTTKKQFEVIDDIKLSLMGGGSKISVGEVGQALAVCTLAGATIGSVFPIAGTLGGAVLGAQYCTGAWAIIRAH
 ```
 
-Here, the number at the end in the description line is the assigned probability of a sequence being a bacteriocin. We suggest
+Here, the number at the end of the description line is the assigned probability of a sequence being a bacteriocin. We suggest
 using a threshold of >=0.9 to decide if it is a bacteriocin or not. But depending on your task, you may want the threshold 
 to be flexible.
 
-You can deactivate the virtual environment with the following command
+When your work is done, you can deactivate the virtual environment with the following command
 
 ```
 deactivate
