@@ -22,7 +22,7 @@ needed to run NeuBI do not affect the computer's default computing environment. 
 $ virtualenv bacteriocin_software
 ```
 
-If virtualenv is not installed, do a pip installation.
+If you get an error that means virtualenv is not installed. So, do a pip installation of virtualenv.
 
 ```
 $ pip install virtualenv
@@ -65,8 +65,13 @@ Here, the number at the end in the description line is the assigned probability 
 using a threshold of >=0.9 to decide if it is a bacteriocin or not. But depending on your task, you may want the threshold 
 to be flexible.
 
-If you see an error from Theano, you might need to change the backend of Keras to Tensorflow. Theano is no longer supported 
-as a deep learning library, so we are using Tensorflow. You can change this by 
+You can deactivate the virtual environment with the following command
+
+```
+deactivate
+```
+
+If you see an error from Theano when running NeuBI, you might need to change the backend of Keras to Tensorflow. Theano is no longer supported as a deep learning library, so we are using Tensorflow. You can change this by 
 
 ```
 $ cd ~/.keras
