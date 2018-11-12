@@ -142,8 +142,8 @@ if __name__ == '__main__':
     #print (len(hansky_scores[hansky_scores == 1]))
     print ("\n")
     print ("Predicting bacteriocins")
-    print ("There are %s bacteriocins with probability of >= 0.9" %
-                 str(len(hansky_scores_probability[hansky_scores_probability >= 0.9])))
+    print ("There are %s bacteriocins with probability of >= 0.95" %
+                 str(len(hansky_scores_probability[hansky_scores_probability >= 0.95])))
     #print (len(hansky_scores_probability[hansky_scores_probability >= 0.9]))
     #print (hansky_scores_probability)
 
