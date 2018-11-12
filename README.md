@@ -61,7 +61,7 @@ MNTTKKQFEVIDDIKLSLMGGGSKISVGEVGQALAVCTLAGATIGSVFPIAGTLGGAVLGAQYCTGAWAIIRAH
 ```
 
 Here, the number at the end of the description line is the assigned probability of a sequence being a bacteriocin. We suggest
-using a threshold of >=0.9 to decide if it is a bacteriocin or not. But depending on your task, you may want the threshold 
+using a threshold of >=0.95 to decide if it is a bacteriocin or not. But depending on your task, you may want the threshold 
 to be flexible.
 
 When your work is done, you can deactivate the virtual environment with the following command
