@@ -6,7 +6,7 @@ protein sequences. Unlike traditional alignment based approaches such as BLAST o
 
 #### Installation
 
-Installation of NeuBI is pretty much straight forward. You only need python 3.6. The software has only been tested for python
+Installation of NeuBI is pretty straight forward. You only need python 3.6. The software has only been tested for python
 3.6 on a linux machine.
 
 First, download this repository. Then run the following commands
@@ -89,3 +89,5 @@ You will see this inside the file
 ```
 
 Change the backend to `tensorflow`.
+
+If you face any problem installing the software, you can contact me through email: `nafizh at iastate dot edu`
