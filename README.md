@@ -34,11 +34,13 @@ Activate the newly created virtual environment.
 $ source bacteriocin_software/bin/activate
 ```
 
-Now, install the necessary softwares to run NeuBI with
+Now, based on your OS, install the necessary softwares to run NeuBI with
 
 ```
-$ pip install -r requirements.txt
+$ pip install -r requirements_linux.txt
 ```
+
+For MacOS, you will need to run the previous command with requirements_mac.txt.
 
 Now, you can get NeuBI to run against any fasta file with the following commmand
 
