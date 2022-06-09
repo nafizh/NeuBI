@@ -92,4 +92,4 @@ You will see this inside the file
 
 Change the backend to `tensorflow`.
 
-If you face any problem installing the software, you can contact me through email: `nafizh at iastate dot edu`
+If you face any problem installing the software, you can contact me through email: `nafiz dot hamid dot iut at gmail dot com`
